@@ -1,1 +1,1 @@
-server '62.4.23.207', user: 'ubuntu', roles: %w{app}
+server '62.4.23.207', user: fetch(:ubuntu), roles: %w{app}
