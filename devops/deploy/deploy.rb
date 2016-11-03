@@ -2,8 +2,7 @@
 lock '3.4.0'
 
 set :deploy_to, "/var/www/symfony-demo"
-#set :repo_url, 'git@github.com:fansible/tywin.git'
-set :repo_url, 'git@github.com:CHANGEME/CHANGEME.git'
+set :repo_url, 'git@github.com:GregSatre/symfony-demo.git'
 
 set :stages, %w(prod)
 
